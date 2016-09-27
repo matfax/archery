@@ -1,7 +1,5 @@
 ## Archery
 
-[![](https://jitpack.io/v/matfax/archery.svg)](https://jitpack.io/#matfax/archery)
-
 ### Overview
 
 Archery is a two-dimensional [R-Tree](http://en.wikipedia.org/wiki/R-tree)
@@ -14,6 +12,7 @@ The name "archery" is a corruption of the word "R-Tree".
 
 [![travis-ci.org](https://api.travis-ci.org/meetup/archery.svg?branch=master)](https://travis-ci.org/meetup/archery?branch=master)
 [![codecov.io](http://codecov.io/github/meetup/archery/coverage.svg?branch=master)](http://codecov.io/github/meetup/archery?branch=master)
+[![](https://jitpack.io/v/matfax/archery.svg)](https://jitpack.io/#matfax/archery)
 
 ### Example Usage
 
