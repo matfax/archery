@@ -1,5 +1,7 @@
 ## Archery
 
+[![](https://jitpack.io/v/matfax/archery.svg)](https://jitpack.io/#matfax/archery)
+
 ### Overview
 
 Archery is a two-dimensional [R-Tree](http://en.wikipedia.org/wiki/R-tree)
@@ -12,30 +14,6 @@ The name "archery" is a corruption of the word "R-Tree".
 
 [![travis-ci.org](https://api.travis-ci.org/meetup/archery.svg?branch=master)](https://travis-ci.org/meetup/archery?branch=master)
 [![codecov.io](http://codecov.io/github/meetup/archery/coverage.svg?branch=master)](http://codecov.io/github/meetup/archery?branch=master)
-
-### Getting Archery
-
-Archery is published to [bintray](https://bintray.com/) using the
-[bintray-sbt](https://github.com/softprops/bintray-sbt) plugin.
-Archery is available for Scala 2.10 and Scala 2.11.
-
-If you use SBT, you can include Archery via the following `build.sbt`
-snippet:
-
-```scala
-resolvers += "bintray/meetup" at "http://dl.bintray.com/meetup/maven"
-
-libraryDependencies += "com.meetup" %% "archery" % "0.4.0"
-```
-
-For Maven or Ivy, you'll use the same resolver URL but you'll need a
-slightly different artifact name (the example is for Scala 2.11):
-
-```
-org=com.meetup
-name=archery_2.11
-rev=0.4.0
-```
 
 ### Example Usage
 
